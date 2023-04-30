@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+// start service
+
+
+section.service {
+    margin-top: 150px;
+
+    .container {
+        background: #F8F8F8;
+        // padding: 100px 100px 130px 100px;
+        text-align: center;
+        padding-top: 80px;
+        padding-bottom: 60px;
+
+        h1 {
+
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 44px;
+            line-height: 62px;
+            text-align: center;
+            color: #1B1C23;
+            margin-bottom: 20px;
+        }
+
+        .service__cards {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 15px;
+
+
+            .service__card {
+                background: #FFFFFF;
+                box-shadow: 0px 25px 45px rgba(197, 197, 197, 0.25);
+                padding: 35px;
+                margin: 11px;
+                text-align: start;
+
+                .card__title {
+                    display: flex;
+
+
+                    img {
+                        width: 45px;
+                    }
+
+                    h3 {
+                        font-family: sans-serif;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #1B1C23;
+                        margin-left: 22px;
+                    }
+                }
+
+                p {
+                    margin-top: 20px;
+                    font-family: sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #757683;
+                }
+
+                img.vector {
+                    margin-top: 40px;
+                }
+            }
+        }
+
+        .btn__box {
+            padding: 22px;
+            background: #fffefeb9;
+            width: 277px;
+            position: relative;
+            top: 106px;
+            left: 416px;
+
+            .btn {
+                padding: 18px 35px;
+                background-color: #FF694B;
+                box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+                border: none;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #FFFFFF;
+
+            }
+        }
+
+    }
+}
+
+
+// End service
+
+
+
+// Start education
+
+
+section.education {
+    margin-top: 150px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        .edu__left,
+        .edu__right {
+            width: 47%;
+
+            img.logo {
+                width: 280px;
+                margin-bottom: 30px;
+
+            }
+
+            .edu__details {
+                .edu__detail {
+                    padding: 30px 0;
+                    border-bottom: 1px solid #C8C8C8;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .detail__left {
+                        display: flex;
+
+                        img {
+                            margin-right: 30px;
+                        }
+
+                        h2 {
+                            font-family: sans-serif;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 28px;
+                            color: #1B1C23;
+                        }
+
+                        h3 {
+                            font-family: sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 21px;
+                            color: #757683;
+                            margin-top: 6px;
+                        }
+
+                    }
+
+                    .detail__right {
+                        text-align: end;
+
+                        h3 {
+                            font-family: sans-serif;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-align: right;
+                            color: #757683;
+                            margin-top: 16px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// End education
+
+// Start blackpart
+
+section.blackpart {
+    margin-top: 150px;
+
+    .container {
+        width: 100%;
+        height: 389px;
+        background-image: url(../imgs/balckbgimg.png);
+        background-size: cover;
+        display: flex;
+
+        .part__left {
+            img {
+                width: 364px;
+                margin-left: 55px;
+                margin-right: 98px;
+            }
+        }
+
+        .part__right {
+            h1 {
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 51px;
+                color: #FFFFFF;
+                margin-top: 92px;
+
+            }
+
+            h5 {
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 15px;
+                color: #A6A7AE;
+                margin-top: 18px;
+                margin-bottom: 30px;
+            }
+
+            button.btn {
+                padding: 15px 25px;
+                background-color: #FF694B;
+                box-shadow: 0px 12px 30px rgba(255, 105, 75, 0.35);
+                border: none;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+// End blacpart
+
+
+
+// Start testimonial
+
+section.testimonial {
+    margin-top: 150px;
+
+    .container {
+        text-align: center;
+
+        .brk {
+            width: 43px;
+        }
+
+        h3 {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 26px;
+            text-align: center;
+            color: #1B1C23;
+            margin-top: 30px;
+            margin-bottom: 7px;
+        }
+
+        h5 {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #FF694B;
+
+        }
+
+        .comment {
+            display: flex;
+            justify-content: center;
+
+            .brk2 {
+                width: 45px;
+            }
+
+            p {
+                width: 589px;
+                height: 158px;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 31px;
+                text-align: center;
+                color: #757683;
+                margin: 37px 90px;
+            }
+        }
+
+        .humans {
+            img {
+                width: 60px;
+                margin: 0 22.5px;
+            }
+
+            img.centre {
+                width: 90px;
+            }
+        }
+    }
+}
+
+// End testimonial
+
+
