@@ -213,4 +213,60 @@ section.blackpart .container .part__right button.btn {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+}
+
+section.testimonial {
+  margin-top: 150px;
+}
+section.testimonial .container {
+  text-align: center;
+}
+section.testimonial .container .brk {
+  width: 43px;
+}
+section.testimonial .container h3 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 26px;
+  text-align: center;
+  color: #1B1C23;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+section.testimonial .container h5 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  color: #FF694B;
+}
+section.testimonial .container .comment {
+  display: flex;
+  justify-content: center;
+}
+section.testimonial .container .comment .brk2 {
+  width: 45px;
+}
+section.testimonial .container .comment p {
+  width: 589px;
+  height: 158px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  color: #757683;
+  margin: 37px 90px;
+}
+section.testimonial .container .humans img {
+  width: 60px;
+  margin: 0 22.5px;
+}
+section.testimonial .container .humans img.centre {
+  width: 90px;
 }/*# sourceMappingURL=style.css.map */

@@ -269,3 +269,78 @@ section.blackpart {
 
 // End blacpart
 
+
+
+// Start testimonial
+
+section.testimonial {
+    margin-top: 150px;
+
+    .container {
+        text-align: center;
+
+        .brk {
+            width: 43px;
+        }
+
+        h3 {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 26px;
+            text-align: center;
+            color: #1B1C23;
+            margin-top: 30px;
+            margin-bottom: 7px;
+        }
+
+        h5 {
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 15px;
+            text-align: center;
+            color: #FF694B;
+
+        }
+
+        .comment {
+            display: flex;
+            justify-content: center;
+
+            .brk2 {
+                width: 45px;
+            }
+
+            p {
+                width: 589px;
+                height: 158px;
+                font-family: sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 23px;
+                line-height: 31px;
+                text-align: center;
+                color: #757683;
+                margin: 37px 90px;
+            }
+        }
+
+        .humans {
+            img {
+                width: 60px;
+                margin: 0 22.5px;
+            }
+
+            img.centre {
+                width: 90px;
+            }
+        }
+    }
+}
+
+// End testimonial
+
+
