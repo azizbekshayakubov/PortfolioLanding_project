@@ -196,7 +196,7 @@ a {
   background-color: #f3f1fa;
   padding: 0 50px;
   margin-left: 10px;
-  height: 760px;
+  height: 775px;
 }
 /* <!-- End Fashion Section --> */
 
@@ -266,7 +266,7 @@ section {
   position: relative;
   background-position: center;
   background-size: contain;
-  top: 58px;
+  top: 45px;
   left: -45px;
 }
 
@@ -279,7 +279,7 @@ section {
   position: relative;
   background-position: center;
   background-size: contain;
-  top: 58px;
+  top: 45px;
   left: -45px;
 }
 .clients__subtitle1 {
